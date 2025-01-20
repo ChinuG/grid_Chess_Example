@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Chessboard</title>
+  <style>
+    /* Write your code here */
+    /* Each square should be 100px by 100px */
+    /* My colours for white: #f0d9b5, black: #b58863 */
+    
+    .container
+    {
+      width: 800px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      align-content: center;
+    }
+    .white
+    {
+      background-color: #edeed1;
+      height: 100px;
+      width: 100px;
+    }
+    .black
+    {
+      background-color: #779952;
+      height: 100px;
+      width: 100px;
+    }
+
+    
+    .whi
+    {
+      font-weight: bold;
+      color: #edeed1;      
+    }
+    .bla
+    {
+      font-weight: bold;
+      color: #779952;
+    }
+    
+    .num
+    {
+      margin: 0px;
+      padding: 5px;
+      font-weight: bold;
+      display: inline-block;
+    }
+    .char
+    {
+      position: absolute;
+      margin-top: 70px;
+      margin-left: 60px;
+      padding: 5px;
+      display: inline-block;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="white"><p class="num bla">8</p></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="black"><p class="num whi">7</p></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="white"><p class="num bla">6</p></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="black"><p class="num whi">5</p></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="white"><p class="num bla">4</p></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="black"><p class="num whi">3</p></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="white"><p class="num bla">2</p></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="black">
+      <p class="num whi">1</p>
+      <p class="char whi">a</p>
+    </div>
+    <div class="white"><p class="char bla">b</p></div>
+    <div class="black"><p class="char whi">c</p></div>
+    <div class="white"><p class="char bla">d</p></div>
+    <div class="black"><p class="char whi">e</p></div>
+    <div class="white"><p class="char bla">f</p></div>
+    <div class="black"><p class="char whi">g</p></div>
+    <div class="white"><p class="char bla">h</p></div>
+  </div>
+</body>
+
+</html>
